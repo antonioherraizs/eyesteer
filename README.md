@@ -18,7 +18,7 @@ Hace un tiempo nos preguntamos si a traves de su tablet Agustinito podria pilota
 # Architecture
 This diagram shows the components of the solution and describes the three-step sequence that leads to wirelessly steering the boat through eye gaze tech:
 
-(arquitecture diagram)
+![architecture diagram](https://github.com/user-attachments/assets/dc9fc6ea-f8e1-4e62-971b-60a92f87ff08)
 
 At a high level, the user sends a web request that reaches the arduino and instructs a digital potentiometer to simulate the turn of a knob on the IA2000 which translates into a turn of direction on the AP2000 autopilot.
 
@@ -26,7 +26,7 @@ Step 1: Web Request
 
 My cousin Agustin controls a tablet running SmartGrid Grid 3 through eye sight. He connects to the Arduino's access piont and browses 192.168.4.1, a web page loads that allows for the steering of the boat. The webpage contains two buttons, each with a command to turn port or starboard:
 
-(image of website)
+![website interface](https://github.com/user-attachments/assets/2a2691f9-de93-4789-9a44-b31b86cdb956)
 
 Step 2: IA2000 Control
 
@@ -34,7 +34,7 @@ The King Marine AP2000 autopilot just like any other boat autopilot lets users s
 
 This solution replaces the physical control of the Heading Trim knob on the IA2000 with a digital potentiometer controlled by an arduino:
 
-(image of IA2000 showing "HDG TRIM" knob)
+![IA 2000 showing "HDG TRIM" knob](https://github.com/user-attachments/assets/2bd83b36-faa4-4c67-b1c2-4db5aebaff6c)
 
 The wiring between the Arduino and the IA2000 consists of four cables:
 
